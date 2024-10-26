@@ -10,7 +10,9 @@ import techs from "../assets/techs/techs.js";
     id="Techs"
   >
     <h1 class="mt-5">Stack</h1>
-    <div class="d-flex flex-wrap gap-3">
+    <div
+      class="d-flex flex-wrap gap-3 justify-content-center flex-grow-1 p-3 align-items-center"
+    >
       <TechCard v-for="tech in techs" :tech="tech" />
     </div>
   </div>
