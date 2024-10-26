@@ -17,9 +17,9 @@ const handleClick = (section: string) => {
 </script>
 
 <template>
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#">{{ title }}</a>
+      <a class="navbar-brand" :href="`#${title}`">{{ title }}</a>
       <button
         class="navbar-toggler"
         type="button"
@@ -42,7 +42,6 @@ const handleClick = (section: string) => {
               class="nav-link active"
               aria-current="page"
               :href="`#${section}`"
-              @click.prevent="handleClick(section)"
               >{{ section }}</a
             >
           </li>

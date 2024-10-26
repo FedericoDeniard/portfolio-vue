@@ -11,4 +11,19 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  box-sizing: border-box;
+}
+
+#app {
+  min-height: 100vh;
+}
+
+.section {
+  min-height: 100vh;
 }
