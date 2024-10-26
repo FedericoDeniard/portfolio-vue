@@ -14,10 +14,10 @@ const props = defineProps({});
         alt="..."
       />
     </div>
-    <div class="container text-center w-50">
-      <h1 class="">Federico Deniard</h1>
-      <h4 class="">Web Developer</h4>
-      <p class="mt-3">
+    <div class="container text-center">
+      <h1 class="text-nowrap">Federico Deniard</h1>
+      <h4 class="text-nowrap">Web Developer</h4>
+      <p class="mt-3 w-50 mx-auto">
         Fullstack developer experienced in technologies like Vue, React,
         JavaScript, and Python. Passionate about building robust and efficient
         applications, with a focus on every detail from layout to implementing
@@ -29,6 +29,7 @@ const props = defineProps({});
 
 <style scoped>
 .about-image {
-  width: 18%;
+  max-height: 40vh;
+  max-width: 60%;
 }
 </style>
