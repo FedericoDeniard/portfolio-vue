@@ -9,9 +9,9 @@ const props = defineProps({});
   >
     <div class="text-center">
       <img
-        src="../assets/yo.png"
+        src="../assets/yo.webp"
         class="about-image img-fluid rounded"
-        alt="..."
+        alt="Federico Deniard"
       />
     </div>
     <div class="container text-center">

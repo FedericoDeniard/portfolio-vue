@@ -10,7 +10,7 @@ const handleSectionClick = (section: string) => {
 
 <template>
   <NavBar
-    :title="'Portfolio'"
+    :title="'Federico Deniard'"
     :sections="['About', 'Techs', 'Projects', 'Contact']"
     @onSectionClick="handleSectionClick"
   />
