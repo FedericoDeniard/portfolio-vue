@@ -11,30 +11,14 @@ import flaskImage from "./flask.svg";
 import nodeImage from "./Node.js.svg";
 import sqlImage from "./sql.svg";
 
-const techs = [
+const languages = [
   {
-    name: "Vue",
-    image: vueImage,
-  },
-  {
-    name: "React",
-    image: reactImage,
-  },
-  {
-    name: "Node.js",
-    image: nodeImage,
-  },
-  {
-    name: "flask",
-    image: flaskImage,
+    name: "JavaScript",
+    image: jsImage,
   },
   {
     name: "TypeScript",
     image: tsImage,
-  },
-  {
-    name: "JavaScript",
-    image: jsImage,
   },
   {
     name: "Python",
@@ -58,4 +42,23 @@ const techs = [
   },
 ];
 
-export default techs;
+const frameworks = [
+  {
+    name: "React",
+    image: reactImage,
+  },
+  {
+    name: "Node.js",
+    image: nodeImage,
+  },
+  {
+    name: "Vue",
+    image: vueImage,
+  },
+  {
+    name: "flask",
+    image: flaskImage,
+  },
+];
+
+export { languages, frameworks };
