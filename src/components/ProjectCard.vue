@@ -24,6 +24,7 @@ const props = defineProps<{ project: ProjectType }>();
         v-if="props.project.github"
         :href="props.project.github"
         class="card-link"
+        target="_blank"
         >Github Link</a
       >
       <span v-else class="placeholder">‎ </span>
@@ -31,6 +32,7 @@ const props = defineProps<{ project: ProjectType }>();
         v-if="props.project.deployed"
         :href="props.project.deployed"
         class="card-link m-0"
+        target="_blank"
         >Deployed Link</a
       >
       <span v-else class="placeholder">‎ </span>
