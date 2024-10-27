@@ -2,6 +2,7 @@
 import NavBar from "./components/NavBar.vue";
 import AboutMe from "./views/AboutMe.vue";
 import Stack from "./views/Stack.vue";
+import Projects from "./views/Projects.vue";
 
 const handleSectionClick = (section: string) => {
   console.log(section);
@@ -16,6 +17,7 @@ const handleSectionClick = (section: string) => {
   />
   <AboutMe />
   <Stack />
+  <Projects />
 </template>
 
 <style scoped></style>

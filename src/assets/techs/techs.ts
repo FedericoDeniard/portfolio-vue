@@ -10,8 +10,12 @@ import htmlImage from "./html.svg";
 import flaskImage from "./flask.svg";
 import nodeImage from "./Node.js.svg";
 import sqlImage from "./sql.svg";
+export interface Tech {
+  name: string;
+  image: string;
+}
 
-const languages = [
+export const languages: Tech[] = [
   {
     name: "JavaScript",
     image: jsImage,
@@ -42,7 +46,7 @@ const languages = [
   },
 ];
 
-const frameworks = [
+export const frameworks: Tech[] = [
   {
     name: "React",
     image: reactImage,
@@ -60,5 +64,3 @@ const frameworks = [
     image: flaskImage,
   },
 ];
-
-export { languages, frameworks };

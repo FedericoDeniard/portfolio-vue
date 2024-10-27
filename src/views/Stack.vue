@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import TechCard from "../components/TechCard.vue";
 
-import { frameworks, languages } from "../assets/techs/techs.js";
+import { frameworks, languages } from "../assets/techs/techs.ts";
 </script>
 
 <template>
